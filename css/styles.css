@@ -1,0 +1,81 @@
+.app-header {
+	background: linear-gradient(rgba(62, 63, 64, 0.3), rgba(62, 63, 64, 0.3)), url("../images/bg.png");
+	background-size: cover;
+	background-position: center top;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+@media (min-width: 992px) {
+	.app-header {
+		height: 100vh;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+.app-header .header-content {
+	text-align: center;
+	margin-bottom: 5em;
+}
+
+@media (min-width: 768px) {
+	.app-header .header-content {
+		margin-bottom: 0;
+		text-align: left !important;
+	}
+}
+
+.app-header h1 {
+	font-size: 2.6rem;
+	margin-bottom: .3em;
+	font-weight: 300;
+}
+
+@media (min-width: 1200px) {
+	.app-header h1 {
+		font-size: 4.2rem;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.app-header h1 {
+		font-size: 3.45rem;
+	}
+}
+
+.app-header h3 {
+	font-size: 1.125rem;
+	margin-bottom: 2em;
+	margin-top: .3em;
+	font-weight: 300;
+}
+
+@media (min-width: 992px) {
+	.app-header h3 {
+		font-size: 1.275rem;
+	}
+}
+
+.btn {
+	padding: 9px 26px;
+	background-color: #18c967;
+	color: #FFF;
+	display: inline-block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	text-decoration: none;
+	border: solid 2px #18c967;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+.btn:hover {
+	color: #FFF;
+	background-color: #1f69ff;
+	border-color: #1f69ff;
+}
